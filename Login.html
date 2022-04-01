@@ -1,0 +1,79 @@
+<!--  <!DOCTYPE html> declaration defines that this document is an HTML5 document and declaration represents the document type, and helps browsers to display web pages correctly. -->
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./Login.css">
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<h1>AutomateInfra Integrated Platform</h1>
+<br>
+<body>
+
+  <ul>
+    <li><a href="Home" style="background-color: azure;">Home</a></li>
+    <li><a href="Get a guided Tour">Get a guided Tour</a></li>
+    <li><a href="AutomateInfra Bot In action" style="background-color: azure;">AutomateInfra Bot In action</a></li>
+    <li><a href="Releases">Releases</a></li>
+    <li><a href="Documentation.html" style="background-color: azure;">Documentation</a></li>
+    <li><a href="Team">Team</a></li>
+  </ul> <br><br><br><br>
+
+    <div class="login-section">
+       <img src="Capture.png" class="center" width="350px" height="300px">
+        <br><br><br>
+          <div class=" login-form">
+            <form action="test.html">
+              <input type="email" id="email" name="email" placeholder="Email" class="login-input"><br><br> 
+              <input type="text" id="secret" name="secret" placeholder="secret" class="login-input"><br><br>
+              <input type="submit" onclick="buttonfunction2()" value="Log In">
+              <input type="submit" value="Forget Password"><br><br>
+            </form> 
+         </div>
+    </div>
+    <label id="demo">Are you first time user?</label><br><br>
+   <button onclick="parent.document.getElementById('id01').style.display='block'" style="color: white; background-color: rgb(9, 99, 17);">REGISTER</button >       
+    
+<br><br><br>
+
+
+
+
+
+
+<div class="container2">
+  <div class="chatbox">
+      <div class="chatboxsupport">
+          <div class="chatboxheader">
+              <div class="chatboximageheader">
+                  <img src="robot.jpg" alt="image" width="55px" height="50px">
+              </div>
+              <div class="chatboxcontentheader">
+                  <h4 class="chatboxheadingheader">Chat support</h4>
+                  <p class="chatboxdescriptionheader">Hi. How can I help you?</p>
+              </div>
+          </div>
+          <div class="chatboxmessages">
+              <div></div>
+          </div>
+          <div class="chatboxfooter">
+              <input type="text" placeholder="Write a message...">
+              <button id="demo3" onclick="buttonfunction3()" class="chatboxsendfooter sendbutton">Send</button>
+          </div>
+      </div>
+      <div class="chatboxbutton">
+          <button><img src="button.PNG" width="50px" height="30px"/></button >
+      </div>
+  </div>
+</div>
+
+<script src="ap.js"></script>
+
+</body>
+
+</html>
